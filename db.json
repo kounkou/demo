@@ -1,11 +1,14 @@
 {
-  "status": "ok",
-  "type": "itemlist",
-  "data": {
-    "items": {
-      "item1": { "name": "orange", "price": 5.00, "date": "2019/01/31" },
-      "item2": { "name": "banana", "price": 9.80, "date": "2019/01/30" },
-      "item3": { "name": "apple",  "price": 7.10, "date": "2019/02/03" }
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
