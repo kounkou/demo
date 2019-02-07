@@ -1,9 +1,9 @@
 {
   "status": [ "ok" ],
-  "type": [ "auth" ],
+  "type": [ "submission" ],
   "data": [ {
     "items": {
-      "item1": { "reason": "access denied" }
+      "item1": { "reason": "submission failure" }
     }
   } ]
 }
