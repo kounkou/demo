@@ -1,11 +1,9 @@
 {
-  "status": [ "ok"],
-  "type": [ "itemlist" ],
+  "status": [ "ok" ],
+  "type": [ "auth" ],
   "data": [ {
     "items": {
-      "item1": { "name": "orange", "price": 5.00, "date": "2019/01/31" },
-      "item2": { "name": "banana", "price": 9.80, "date": "2019/01/30" },
-      "item3": { "name": "apple",  "price": 7.10, "date": "2019/02/03" }
-    } 
+      "item1": { "reason": "access denied" }
+    }
   } ]
 }
